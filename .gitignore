@@ -1,0 +1,11 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+bower_components
+doc
+node_modules
+CHANGELOG.md
+apple-touch-icon-precomposed.png
+CONTRIBUTING.md
+humans.txt
+LICENSE.md
+README.md
