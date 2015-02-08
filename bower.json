@@ -15,6 +15,7 @@
     "animate.css": "~3.2.0",
     "bootstrap": "~3.3.2",
     "normalize.css": "~3.0.2",
-    "bootstrap-table": "wenzhixin/bootstrap-table#~1.6.0"
+    "bootstrap-table": "wenzhixin/bootstrap-table#~1.6.0",
+    "smooth-scroll": "cferdinandi/smooth-scroll"
   }
 }
