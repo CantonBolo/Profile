@@ -53,7 +53,7 @@
                         <li><a href="javascript:;" data-toggle="modal" data-target="#wechat-qrcode"><i class="fa fa-weixin"></i> cantonbolo</a></li>
                         <li><a href="mailto:cantonbolo@gmail.com" target="_blank"><i class="fa fa-envelope"></i> cantonbolo@gmail.com</a></li>
                     </ul>
-                    <button class="navbar-btn btn btn-success pull-right" type="button"><i class="fa fa-print"></i> 打印我</button>
+                    <button class="navbar-btn btn btn-success pull-right hidden-sm hidden-print" type="button" onclick="$('.bootstrap-table').bootstrapTable('destroy').bootstrapTable({pageSize: 50});window.print()"><i class="fa fa-print"></i> 打印我</button>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
@@ -116,7 +116,7 @@
                     <p>熟悉在 CentOS 操作系统中搭建和测试项目所需的组件，并进行性能调优。</p>
                     <p>在多年的工作中，掌握了 <mark>WordPress</mark>、<mark>PHPCMS</mark>、<mark>CodeIgniter</mark>、<mark>Laravel</mark>、<mark>ThinkPHP</mark>、<mark>Magento</mark>、<mark>Discuz</mark> 等主流框架的二次开发，并从中获得大量开发技巧。能根据项目的性质和需求迅速做出适当的优化，适当使用 <mark>Composer</mark> 进行扩展。</p>
                     <p>除了服务器端以外，有丰富的浏览器端开发经验，能熟练使用 <mark>jQuery</mark>、<mark>Zepto</mark>、<mark>Agular.js</mark> 等前端开发框架进行开发，并使用 <mark>Gulp</mark> 或者 <mark>Grunt</mark> 等自动化优化工具优化代码后上线。</p>
-                    <table class="table table-striped table-hover" data-toggle="table" data-search="true" data-pagination="true">
+                    <table class="table table-striped table-hover bootstrap-table" data-toggle="table" data-search="true" data-pagination="true" data-pagesize="25">
                         <thead>
                         <th>软件名</th>
                         <th>应用范围</th>
@@ -204,7 +204,7 @@
                         <h2>项目经验 <small>Experience</small></h2>
                     </div>
                     <p>这里只列出了部分个人觉得比较有代表性的项目。</p>
-                    <table class="table table-striped table-hover" data-toggle="table" data-search="true" data-pagination="true">
+                    <table class="table table-striped table-hover bootstrap-table" data-toggle="table" data-search="true" data-pagination="true">
                         <thead>
                         <th>项目</th>
                         <th>功能</th>
