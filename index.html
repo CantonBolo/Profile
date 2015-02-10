@@ -26,6 +26,8 @@
             }
         </style>
         <style media="print">
+            .page-break-before{page-break-before: always}
+            .page-break-after{page-break-after: always}
             .fixed-table-pagination,
             .fixed-table-toolbar{display:none}
         </style>
@@ -110,7 +112,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <div id="skills" class="page-header">
+                    <div id="skills" class="page-header page-break-before">
                         <h2>技能 <small>Skills</small></h2>
                     </div>
                     <p>熟悉在 CentOS 操作系统中搭建和测试项目所需的组件，并进行性能调优。</p>
@@ -200,7 +202,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <div id="experience" class="page-header">
+                    <div id="experience" class="page-header page-break-before">
                         <h2>项目经验 <small>Experience</small></h2>
                     </div>
                     <p>这里只列出了部分个人觉得比较有代表性的项目。</p>
